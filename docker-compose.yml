@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  exampleredisclient:
+    image: ${DOCKER_REGISTRY-}exampleredisclient
+    build:
+      context: .\ExampleRedisClient
+      dockerfile: Dockerfile

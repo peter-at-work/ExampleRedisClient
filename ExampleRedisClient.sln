@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleRedisClient", "ExampleRedisClient\ExampleRedisClient.csproj", "{1C3F20F4-A74F-4227-9780-F7E009A2B628}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A3FCDEFD-CC6D-490C-95C8-2B826051EB3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C3F20F4-A74F-4227-9780-F7E009A2B628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3F20F4-A74F-4227-9780-F7E009A2B628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3F20F4-A74F-4227-9780-F7E009A2B628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3F20F4-A74F-4227-9780-F7E009A2B628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FCDEFD-CC6D-490C-95C8-2B826051EB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FCDEFD-CC6D-490C-95C8-2B826051EB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FCDEFD-CC6D-490C-95C8-2B826051EB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FCDEFD-CC6D-490C-95C8-2B826051EB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C4C0B6C-5168-4EF7-A04F-C2924151CB3A}
+	EndGlobalSection
+EndGlobal
